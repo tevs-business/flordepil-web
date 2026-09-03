@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>FLORDEPIL | Estética y Tratamientos de Belleza</title>
+<meta name="description" content="FLORDEPIL — Tratamientos estéticos, limpieza facial, depilación definitiva y cuidado personal. Reservá tu turno.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="FLORDEPIL | Estética y Tratamientos de Belleza">
+<meta property="og:description" content="Tratamientos estéticos, limpieza facial, depilación definitiva y cuidado personal. Reservá tu turno por WhatsApp.">
+<meta property="og:image" content="images/logo.png">
+<meta property="og:locale" content="es_AR">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#inicio" class="navbar__brand">
+      <img src="images/logo.png" alt="FLORDEPIL" class="navbar__logo">
+      <span class="navbar__name">FLORDEPIL</span>
+    </a>
+
+    <nav class="navbar__links" id="navLinks">
+      <a href="#inicio" class="nav-link">Inicio</a>
+      <a href="#tratamientos" class="nav-link">Tratamientos</a>
+      <a href="#nosotros" class="nav-link">Nosotras</a>
+      <a href="#ubicacion" class="nav-link">Contacto</a>
+    </nav>
+
+    <a href="#" class="btn btn--primary btn--small navbar__cta whatsapp-link" data-msg="turno">Reservar turno</a>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__bg" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1616394158624-9d8dc9e8dc7d?auto=format&fit=crop&w=1600&q=80" alt="" class="hero__photo" loading="eager">
+    <div class="hero__overlay"></div>
+    <svg class="hero__florals" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <g class="floral-line" fill="none" stroke="currentColor" stroke-width="1.1">
+        <path d="M60 320 C40 300 40 270 65 255 C75 235 100 235 110 255 C130 245 150 260 145 282 C165 288 168 312 148 322 C152 344 130 356 112 344 C96 360 70 352 68 332 C48 336 44 314 60 320 Z"/>
+        <circle cx="106" cy="292" r="6"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="hero__content container">
+    <p class="eyebrow reveal">Estética &amp; bienestar</p>
+    <h1 class="hero__title reveal">
+      <img src="images/logo.png" alt="FLORDEPIL" class="hero__logo">
+    </h1>
+    <p class="hero__phrase reveal">Realzamos tu belleza, cuidamos de vos.</p>
+    <p class="hero__sub reveal">Tratamientos estéticos pensados para que te sientas y te veas increíble.</p>
+
+    <div class="hero__actions reveal">
+      <a href="#" class="btn btn--primary whatsapp-link" data-msg="turno">Reservar mi turno</a>
+      <a href="#tratamientos" class="btn btn--ghost js-scroll">Ver tratamientos</a>
+    </div>
+  </div>
+
+  <a href="#nosotros" class="hero__scroll js-scroll" aria-label="Desplazarse hacia abajo">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ 2. CONOCÉ FLORDEPIL ============ -->
+<section class="section about" id="nosotros">
+  <div class="container about__grid">
+    <div class="about__image reveal">
+      <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=80" alt="Espacio de estética FLORDEPIL, ambiente cálido y luminoso" loading="lazy">
+      <div class="about__image-accent" aria-hidden="true"></div>
+    </div>
+
+    <div class="about__text">
+      <p class="eyebrow reveal">Sobre nosotras</p>
+      <h2 class="reveal">Un espacio pensado para vos</h2>
+      <p class="reveal">En FLORDEPIL combinamos belleza, cuidado y bienestar para ofrecerte tratamientos pensados para resaltar tu belleza natural y ayudarte a sentirte cada vez mejor.</p>
+
+      <ul class="about__list reveal">
+        <li><span class="about__icon" aria-hidden="true">✦</span> Atención personalizada</li>
+        <li><span class="about__icon" aria-hidden="true">✦</span> Productos seleccionados</li>
+        <li><span class="about__icon" aria-hidden="true">✦</span> Tratamientos profesionales</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. SERVICIOS / TRATAMIENTOS ============ -->
+<section class="section services" id="tratamientos">
+  <div class="container">
+    <p class="eyebrow reveal center">Tratamientos</p>
+    <h2 class="section__title reveal center">Nuestros tratamientos</h2>
+    <p class="section__sub reveal center">Descubrí el tratamiento ideal para vos.</p>
+
+    <div class="services__grid">
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=700&q=80" alt="Depilación definitiva" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Depilación definitiva</h3>
+          <p>Suavidad duradera y piel libre de vello, con tecnología profesional y atención personalizada.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="depilacion">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80" alt="Limpieza facial" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Limpieza facial</h3>
+          <p>Piel renovada, luminosa y profundamente cuidada con protocolos suaves y efectivos.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="limpieza">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1616394158624-9d8dc9e8dc7d?auto=format&fit=crop&w=700&q=80" alt="Tratamientos faciales" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Tratamientos faciales</h3>
+          <p>Rutinas personalizadas para hidratar, iluminar y cuidar tu piel en cada estación.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="facial">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Tratamientos corporales" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Tratamientos corporales</h3>
+          <p>Bienestar integral para tu cuerpo, con técnicas que combinan cuidado y resultados.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="corporal">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Alquiler de máquina de depilación definitiva" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Alquiler de máquina de depilación definitiva</h3>
+          <p>Alquilá el equipo profesional para tu propio espacio de estética o uso particular.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="alquiler">Consultar</a>
+        </div>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__image">
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=700&q=80" alt="Otros servicios de estética" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <span class="service-card__icon" aria-hidden="true">✦</span>
+          <h3>Otros servicios</h3>
+          <p>Sumamos tratamientos adicionales pensados para completar tu rutina de belleza.</p>
+          <a href="#" class="link-cta whatsapp-link" data-msg="otros">Consultar</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. DESTACADO: DEPILACIÓN DEFINITIVA ============ -->
+<section class="section featured" id="depilacion-definitiva">
+  <div class="container featured__grid">
+    <div class="featured__image reveal">
+      <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=1000&q=80" alt="Depilación definitiva profesional" loading="lazy">
+      <svg class="featured__floral" viewBox="0 0 200 200" aria-hidden="true">
+        <g class="floral-line" fill="none" stroke="currentColor" stroke-width="1.2">
+          <path d="M40 160 C25 145 25 122 45 112 C52 96 72 96 80 112 C96 104 112 116 108 134 C124 138 126 158 110 165 C113 182 96 191 82 182 C70 195 50 189 48 173 C32 176 28 158 40 160 Z"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="featured__text">
+      <p class="eyebrow reveal">Nuestro tratamiento estrella</p>
+      <h2 class="reveal">Sentite cómoda en tu propia piel</h2>
+      <p class="reveal">Descubrí una forma práctica de cuidar tu piel y disfrutar de una sensación de suavidad por más tiempo.</p>
+
+      <ul class="featured__benefits reveal">
+        <li>✓ Tratamiento profesional</li>
+        <li>✓ Atención personalizada</li>
+        <li>✓ Mayor comodidad</li>
+        <li>✓ Cuidado de la piel</li>
+      </ul>
+
+      <a href="#" class="btn btn--primary reveal whatsapp-link" data-msg="depilacion">Consultar por depilación definitiva</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. POR QUÉ ELEGIR FLORDEPIL ============ -->
+<section class="section why">
+  <div class="container">
+    <p class="eyebrow reveal center">Nuestro compromiso</p>
+    <h2 class="section__title reveal center">Por qué elegir FLORDEPIL</h2>
+
+    <div class="why__grid">
+      <div class="why__item reveal">
+        <span class="why__icon" aria-hidden="true">◈</span>
+        <h3>Atención personalizada</h3>
+        <p>Cada tratamiento se adapta a tu piel y tus necesidades.</p>
+      </div>
+      <div class="why__item reveal">
+        <span class="why__icon" aria-hidden="true">◈</span>
+        <h3>Calidad</h3>
+        <p>Productos seleccionados y equipamiento profesional.</p>
+      </div>
+      <div class="why__item reveal">
+        <span class="why__icon" aria-hidden="true">◈</span>
+        <h3>Cuidado</h3>
+        <p>Protocolos pensados para el bienestar de tu piel.</p>
+      </div>
+      <div class="why__item reveal">
+        <span class="why__icon" aria-hidden="true">◈</span>
+        <h3>Experiencia</h3>
+        <p>Años dedicados a la belleza y estética integral.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. TESTIMONIOS ============ -->
+<section class="section testimonials">
+  <div class="container">
+    <p class="eyebrow reveal center">Testimonios</p>
+    <h2 class="section__title reveal center">Lo que dicen nuestras clientas</h2>
+    <p class="section__sub reveal center">Contenido de ejemplo — reemplazá estos testimonios por los reales de tus clientas.</p>
+
+    <div class="testimonials__grid">
+      <blockquote class="card testimonial reveal">
+        <p>“Desde que empecé mis sesiones me siento muchísimo más cómoda con mi piel. La atención es excelente.”</p>
+        <cite>— Nombre de la clienta (ejemplo)</cite>
+      </blockquote>
+      <blockquote class="card testimonial reveal">
+        <p>“El lugar es hermoso, muy prolijo, y las chicas te hacen sentir súper cómoda durante todo el tratamiento.”</p>
+        <cite>— Nombre de la clienta (ejemplo)</cite>
+      </blockquote>
+      <blockquote class="card testimonial reveal">
+        <p>“Los resultados de la limpieza facial se notaron desde la primera sesión. Totalmente recomendable.”</p>
+        <cite>— Nombre de la clienta (ejemplo)</cite>
+      </blockquote>
+      <blockquote class="card testimonial reveal">
+        <p>“Reservar el turno por WhatsApp fue súper fácil y me respondieron al instante.”</p>
+        <cite>— Nombre de la clienta (ejemplo)</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. INSTAGRAM ============ -->
+<section class="section instagram">
+  <div class="container">
+    <p class="eyebrow reveal center">Redes sociales</p>
+    <h2 class="section__title reveal center">Seguinos en Instagram</h2>
+    <p class="section__sub reveal center">Descubrí nuestros tratamientos, novedades y promociones.</p>
+
+    <div class="instagram__grid reveal">
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener" class="instagram__tile"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=400&q=80" alt="Publicación de Instagram" loading="lazy"></a>
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener" class="instagram__tile"><img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=400&q=80" alt="Publicación de Instagram" loading="lazy"></a>
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener" class="instagram__tile"><img src="https://images.unsplash.com/photo-1616394158624-9d8dc9e8dc7d?auto=format&fit=crop&w=400&q=80" alt="Publicación de Instagram" loading="lazy"></a>
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener" class="instagram__tile"><img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=400&q=80" alt="Publicación de Instagram" loading="lazy"></a>
+    </div>
+
+    <div class="instagram__cta reveal">
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener" class="btn btn--ghost">@flor_depilacion.sj</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. UBICACIÓN ============ -->
+<section class="section location" id="ubicacion">
+  <div class="container location__grid">
+    <div class="location__info reveal">
+      <p class="eyebrow">Ubicación</p>
+      <h2>Encontranos</h2>
+
+      <p class="location__row"><span aria-hidden="true">📍</span> [DIRECCIÓN DE FLORDEPIL]</p>
+      <p class="location__row"><span aria-hidden="true">🕑</span> Horarios de atención: [HORARIOS]</p>
+
+      <a href="https://maps.google.com/?q=FLORDEPIL" target="_blank" rel="noopener" class="btn btn--primary">Cómo llegar</a>
+    </div>
+
+    <div class="location__map reveal">
+      <iframe
+        title="Ubicación de FLORDEPIL en el mapa"
+        src="https://www.google.com/maps?q=FLORDEPIL&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. CTA FINAL ============ -->
+<section class="section final-cta">
+  <svg class="final-cta__florals" viewBox="0 0 600 300" aria-hidden="true">
+    <g class="floral-line" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M60 240 C45 225 45 202 65 192 C72 176 92 176 100 192 C116 184 132 196 128 214 C144 218 146 238 130 245 C133 262 116 271 102 262 C90 275 70 269 68 253 C52 256 48 238 60 240 Z"/>
+      <path d="M480 90 C465 75 465 52 485 42 C492 26 512 26 520 42 C536 34 552 46 548 64 C564 68 566 88 550 95 C553 112 536 121 522 112 C510 125 490 119 488 103 C472 106 468 88 480 90 Z"/>
+    </g>
+  </svg>
+  <div class="container final-cta__content reveal">
+    <h2>¿Lista para empezar?</h2>
+    <p>Reservá tu turno y empezá a cuidar de vos.</p>
+    <a href="#" class="btn btn--primary btn--large whatsapp-link" data-msg="turno">Reservar mi turno por WhatsApp</a>
+  </div>
+</section>
+
+<!-- ============ 11. FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="images/logo.png" alt="FLORDEPIL" class="footer__logo">
+      <p>Belleza, cuidado y bienestar.</p>
+    </div>
+
+    <nav class="footer__links">
+      <a href="#inicio">Inicio</a>
+      <a href="#tratamientos">Tratamientos</a>
+      <a href="#nosotros">Nosotras</a>
+      <a href="#ubicacion">Contacto</a>
+    </nav>
+
+    <div class="footer__contact">
+      <a href="https://www.instagram.com/flor_depilacion.sj/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" class="whatsapp-link" data-msg="turno">WhatsApp</a>
+      <a href="https://tiktok.com/@flordepil" target="_blank" rel="noopener">TikTok</a>
+      <p>[DIRECCIÓN DE FLORDEPIL]</p>
+      <p>[HORARIOS]</p>
+    </div>
+  </div>
+
+  <p class="footer__copy">© 2026 FLORDEPIL. Todos los derechos reservados.</p>
+</footer>
+
+<!-- WhatsApp flotante -->
+<a href="#" class="whatsapp-float whatsapp-link" data-msg="turno" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+    <path d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.56 1.693 6.475L2.667 29.333l7.05-1.848a13.27 13.27 0 0 0 6.287 1.6h.006c7.363 0 13.333-5.97 13.333-13.333S23.367 2.667 16.004 2.667zm0 24.2h-.005a11.03 11.03 0 0 1-5.62-1.54l-.403-.24-4.185 1.097 1.117-4.08-.263-.418a10.94 10.94 0 0 1-1.68-5.853c0-6.06 4.933-10.993 11-10.993 2.94 0 5.703 1.147 7.78 3.227a10.93 10.93 0 0 1 3.22 7.78c0 6.06-4.933 10.993-10.994 10.993zm6.02-8.233c-.33-.165-1.95-.963-2.253-1.073-.303-.11-.523-.165-.743.165-.22.33-.85 1.073-1.043 1.293-.192.22-.385.248-.715.083-.33-.165-1.393-.514-2.653-1.638-.98-.874-1.642-1.953-1.834-2.283-.192-.33-.02-.508.144-.673.148-.147.33-.385.495-.577.165-.192.22-.33.33-.55.11-.22.055-.413-.028-.577-.083-.165-.743-1.79-1.018-2.45-.268-.643-.54-.556-.743-.566l-.633-.011c-.22 0-.577.083-.88.413-.303.33-1.155 1.13-1.155 2.753s1.183 3.19 1.348 3.41c.165.22 2.33 3.557 5.646 4.987.789.34 1.405.543 1.885.695.792.252 1.513.216 2.083.131.635-.095 1.95-.797 2.225-1.567.275-.77.275-1.43.192-1.567-.082-.138-.302-.22-.632-.385z"/>
+  </svg>
+</a>
+
+<!-- Barra sticky mobile -->
+<div class="sticky-cta">
+  <a href="#" class="sticky-cta__btn whatsapp-link" data-msg="turno">💬 Reservar turno</a>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
