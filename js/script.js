@@ -13,6 +13,10 @@ const WHATSAPP_MESSAGES = {
   facial:     "Hola! Quiero consultar por Tratamientos faciales 🌸",
   corporal:   "Hola! Quiero consultar por Tratamientos corporales 🌸",
   alquiler:   "Hola! Quiero consultar por el alquiler de máquina de depilación definitiva 🌸",
+  limpiezaExtracciones: "Hola! Quiero consultar por la Limpieza de cutis con extracciones 🌸",
+  hydraGloss: "Hola! Quiero consultar por el Hydra Gloss Labial 🌸",
+  dermapen:   "Hola! Quiero consultar por el tratamiento de Dermapen 🌸",
+  criolipolisis: "Hola! Quiero consultar por la Criolipólisis plana 🌸",
   otros:      "Hola! Quiero consultar por otros servicios de FLORDEPIL 🌸"
 };
 // ---- FIN CONFIGURACIÓN ----
